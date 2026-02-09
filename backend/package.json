@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "seed": "node src/seeders/schoolInventorySeeder.js",
-    "seed-once": "node src/seeders/schoolInventorySeeder.js || true",
+    "postinstall": "node src/seeders/schoolInventorySeeder.js || true",
     "startup": "node src/startup.js"
   },
   "dependencies": {
